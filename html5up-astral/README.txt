@@ -38,8 +38,18 @@ Feature 1: Refactor the CSS
 
 Estimate of time needed to complete: 45 Minutes
 
-Start time: 9:40am
+Start time: 9:40AM
 
 Finish time: 10:22AM
 
 Actual time needed to complete: 42 Minutes
+
+Feature 2: Modify Contents
+
+Estimate of time needed to complete: 1 Hour
+
+Start time: 10:25AM
+
+Finish time: 12:45PM
+
+Actual time needed to complete: 2 Hours 20 Minutes
