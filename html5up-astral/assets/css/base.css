@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-image: url("images/overlay.png"), url("images/bg.jpg");
+  background-image: url("images/overlay.png"), url("./images/photo-1476445704028-a36e0c798192.jpg");
   background-repeat: repeat, no-repeat;
   background-size: auto, 100% 100%;
   background-attachment: fixed;
@@ -75,6 +75,7 @@ strong, b, h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.4em;
   letter-spacing: -0.015em;
+  color:rgb(103, 103, 103);
 }
 
 h2 {
@@ -197,6 +198,13 @@ ul.actions {
   text-decoration: none;
   position: relative;
   text-decoration: none;
+}
+
+.fab {
+  text-decoration: none;
+  position: relative;
+  text-decoration: none;
+  
 }
 
   .icon:before {
