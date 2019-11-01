@@ -141,16 +141,7 @@ p, ul, ol, dl, table, blockquote, form {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* List */
+/* ~~~~~~~~~~~LIST~~~~~~~~~~~~~~ */
 
 ul {
   list-style: disc;
@@ -170,7 +161,7 @@ ol {
     padding-left: 0.25em;
   }
 
-/* Actions */
+/* ~~~~~~~~ACTIONS~~~~~~~~~~~~ */
 
 ul.actions {
   list-style: none;
@@ -200,7 +191,7 @@ ul.actions {
 
   }
 
-/* Icons */
+/* ~~~~~~~~ICONS~~~~~~~~~ */
 
 .icon {
   text-decoration: none;
@@ -237,7 +228,7 @@ ul.actions {
     display: none;
   }
 
-  /* Image */
+  /* ~~~~~~~~IMAGES~~~~~~~~~~~~*/
 
 	.image {
 		display: inline-block;
