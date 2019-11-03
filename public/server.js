@@ -8,7 +8,11 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static('./public'));
 
-app.get('/hello', (request, response) => {
+app.get('/', (request, response) => {
+  response.status(200).send('Hello');
+});
+
+app.get('/hello/natalie', (request, response) => {
   response.status(200).send('Hello');
 });
 
