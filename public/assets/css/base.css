@@ -14,55 +14,29 @@ html {
 }
 
 /* Background Video */
-
-.homepage-hero-module {
-  border-right: none;
-  border-left: none;
-  position: relative;
+body {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.no-video .video-container video,
-.touch .video-container video {
-  display: none;
-}
-
-.no-video .video-container .poster,
-.touch .video-container .poster {
-  display: block !important;
-}
-
-.video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: #000;
-}
-
-.video-container .poster img {
-  width: 100%;
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
   bottom: 0;
-  position: absolute;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
 }
 
-.video-container .filter {
-  z-index: 100;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  width: 100%;
-}
 
-.video-container video {
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-}
-
-.video-container video.fillWidth {
-  width: 100%;
-}
 
 
 /* body {
