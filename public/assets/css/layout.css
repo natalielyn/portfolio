@@ -137,34 +137,7 @@
         height: 100%;
       }
 
-        /* #main > .panel.intro .pic:before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          background: url("./images/12418955_10208633491940979_3829374234744865686_o.jpg");
-          width: 100%;
-          height: 100%;
-          z-index: 1;
-        } */
-
-        /* #main > .panel.intro .pic img {
-          position: relative;
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          -moz-object-fit: cover;
-          -webkit-object-fit: cover;
-          -ms-object-fit: cover;
-          object-fit: cover;
-          -moz-object-position: center;
-          -webkit-object-position: center;
-          -ms-object-position: center;
-          object-position: center;
-        } */
+     
 
         #main > .panel.intro .pic .arrow {
           display: block;
