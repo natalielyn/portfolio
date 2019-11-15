@@ -1,13 +1,19 @@
 'use strict';
-
+//define packages needed
+//require packages
 require('dotenv').config();
 const express = require('express');
 const app = express();
+const cors = require('cors');
 
+//define port to listen to
 const PORT = process.env.PORT || 3000;
 
+app.use(cors());
+//define default routes and error
 app.use(express.static('./public'));
 
+//define functional routes
 app.get('/', (request, response) => {
   response.status(200).send('Hello');
 });
@@ -29,4 +35,5 @@ app.get('/data', (request, response) => {
 
 app.use('*', (request, response) => response.send('Sorry, that route does not exist.'))
 
+//define listening port and actually listen
 app.listen(PORT,() => console.log(`Listening on port ${PORT}`));

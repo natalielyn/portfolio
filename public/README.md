@@ -27,6 +27,8 @@ Credits:
 
 	Icons:
 		Font Awesome (fontawesome.io)
+    Freepik and iconixar (www.flaticon.com)
+
 
 	Other:
 		jQuery (jquery.com)
@@ -61,6 +63,6 @@ Estimate of time needed to complete: 1 Hour
 
 Start time: 9:00AM
 
-Finish time:
+Finish time:12:00PM
 
-Actual time needed to complete: 
+Actual time needed to complete: 3 Hours
