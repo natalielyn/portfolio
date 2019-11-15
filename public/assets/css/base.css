@@ -37,16 +37,6 @@ body {
 }
 
 
-
-
-/* body {
-  background-image: url("images/overlay.png"), url("./images/photo-1476445704028-a36e0c798192.jpg");
-  background-repeat: repeat, no-repeat;
-  background-size: auto, 100% 100%;
-  background-attachment: fixed;
-  overflow-y: scroll;
-} */
-
   body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -106,17 +96,22 @@ strong, b, h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.4em;
   letter-spacing: -0.015em;
-  color:rgb(103, 103, 103);
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
   font-size: 1.8em;
   letter-spacing: -0.015em;
+  color: grey;
+  font-family: 'Bebas Neue', cursive;
 }
 
 h3, h4, h5, h6 {
   font-size: 1.25em;
   letter-spacing: -0.015em;
+  color:grey;
+  font-family: 'Bebas Neue', cursive;
 }
 
 @media screen and (max-width: 736px) {
@@ -171,6 +166,19 @@ br.clear {
 p, ul, ol, dl, table, blockquote, form {
   margin-bottom: 2em;
 }
+
+/*~~~~~~ICONS~~~~~~~~~ */
+#iconContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* ~~~~~~~~~~Work Section~~~~~~~~~~~ */
+#myWorkSection {
+  text-align: center;
+  
+}
+
 
 
 /* ~~~~~~~~~~~LIST~~~~~~~~~~~~~~ */
